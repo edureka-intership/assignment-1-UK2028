@@ -47,7 +47,26 @@
 .pagination{
     display: inline-block;
     float: right;
-    margin-right:20%;
+    margin-right:10%;
     margin-top: 70px;
     color: #8C96AB;
+}
+
+.pagination a{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 7px;
+    margin:5px;
+    width: 5px;
+    height: 5px;
+}
+
+.pagination a.active{
+    background-color: gray;
+    color: white;
+}
+
+.pagination a:hover:not(.active){
+    background-color: gray;
+    color: white;
 }
