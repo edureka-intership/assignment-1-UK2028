@@ -1,0 +1,37 @@
+.head{
+    height:60px;
+    background-color: #CE0505;
+}
+
+.logo{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    width:30px;
+    height:30px;
+    margin-left: 45px;
+    margin-top: 15px;
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.login{
+    float:right;
+    margin-right: 75px;
+    margin-top:20px;
+}
+
+.login_anchor{
+    color:white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.login > button{
+    background-color: red;
+    color:white;
+    border:white 1px solid;
+    font-size: large;
+}
